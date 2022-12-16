@@ -13,6 +13,7 @@ header{
     
     background: #383838;
     z-index: 5;
+    -webkit-backface-visibility: hidden;
 }
 
 header span{
@@ -214,10 +215,10 @@ details[open]::before {
 }
 
 .wrapper {
-	height: 350px;
+	height: 180px;
 	margin: 0px auto 0;
 	position: relative;
-	width: 700px;
+	width: 350px;
 }
 
 .slider {
@@ -343,7 +344,7 @@ details[open]::before {
 
 #btn{ 
     position: absolute;
-    width: 320px;
+    width: 150px;
     height: 161.14px;
     left: 20%;
     top: 458.86px;
@@ -359,7 +360,7 @@ details[open]::before {
 #btn span{
     position: absolute;
     height: 133.95px;
-    left: 30%;
+    left: 20%;
     top: 5%;
     
     font-family: 'Roboto';
@@ -376,7 +377,7 @@ details[open]::before {
 
 #yesBtn{
     position: absolute;
-    width: 320px;
+    width: 150px;
     height: 161.14px;
     left: 60%;
     top: 458.86px;
@@ -392,7 +393,7 @@ details[open]::before {
 #yesBtn span{
     position: absolute;
     height: 133.95px;
-    left: 35%;
+    left: 20%;
     top: 5%;
     
     font-family: 'Roboto';
