@@ -1,15 +1,21 @@
 # IT_MulticoloredPictures
 
 ## ✅ Landing Page
-(ссылка)[https://tsyreniao.github.io/IT_MulticoloredPictures/]
+[Landing Page](https://tsyreniao.github.io/IT_MulticoloredPictures/)
 
 ## ✅ Проект
 (описание)
 
-## ✅ Технологии
-(используемые технологии)
+## ✅ Используемые средства разработки ПО
+* Язык разметки HTML;
+* Язык таблиц стилей CSS;
+* Язык программирования JavaScript; 
 
-## ✅ Мы
+* Совместная разработка ПО и контроль изменений:
+   + Распределённая система управления версиями Git;
+   + Веб-сервис для хостинга IT-проектов и их совместной разработки GitHub.
+
+## ✅ Состав команды
   * Владимир Мамонтов ИДМ-22-08  
     ВН - Внедрение  
     БА - бизнес-анализ  
@@ -27,3 +33,5 @@
 
   * Цыбиков Цырен ИДМ-22-03  
     АД - Администрирование  
+
+Распределение ролей также показано в Google-таблице: [Кондуит ИДМ-22](https://docs.google.com/spreadsheets/d/1ypxgDUpNsaAK5PH90dTfGKdtDnWaeEDWfupEbDokN6A/edit#gid=1891559469)
