@@ -1,7 +1,7 @@
 # IT_MulticoloredPictures
 
 ## ✅ Landing Page
-(ссылка)
+(ссылка)[https://tsyreniao.github.io/IT_MulticoloredPictures/]
 
 ## ✅ Проект
 (описание)
