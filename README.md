@@ -1,4 +1,6 @@
-# IT_MulticoloredPictures
+# Описание веб-приложения "Question's assistant"
+Данное ПО разработано в рамках лабораторных работ по дисциплине "Интернет-технологии".
+❗ Проект участвует в конкурсе - команда "MulticoloredPictures" ❗
 
 ## ✅ Landing Page
 [Landing Page](https://tsyreniao.github.io/IT_MulticoloredPictures/)
