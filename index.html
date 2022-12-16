@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MulticoloredPictures(IT-Project)</title>
+</head>
+<body>
+    <header>
+        <details>
+            <summary></summary>
+            <nav class="menu">
+              <a href="#main">Начало</a>
+              <a href="#description">Функциональность</a>
+              <a href="#about">Команда</a>
+              <a href="#Reviews">Отзывы</a>
+              <a href="#Technology">Средства разработки</a>
+            </nav>
+        </details>
+        <span>MulticoloredPictures</span>
+    </header>
+    <main id="main">
+        <span> Наша команда победит ?</span>
+        <div id="btn"><span>Нет</span></div>
+        <div id="yesBtn" onclick="alert(`Супер! Полагаю, Вам следует проголосовать за нашу команду`)"><span>Да</span></div>
+    </main>
+    <hr>
+    <div id="description">
+        <p>Функциональность</p>
+        <span>Данное приложение запланировано таким образом, чтобы помочь Вам, посетителю, определиться с победителем в конкурсе проектным работ. Нажмите на кнопку "Да" или "Нет", отвечая на вопрос относительно победителя конкурса проектов, затем приложение может Вам что-нибудь предложить.</span>
+    </div>
+    <div id="about">
+        <p>Команда</p>
+        <div id="person1">
+            <img src="./src/Volodya.jpg" alt="V">
+            <span id="V">Владимир Мамонтов ИДМ-22-08; ВН - Внедрение; БА - бизнес-анализ.</span>
+        </div>
+        <div id="person2">
+            <img src="./src/Darya.jpg" alt="D">
+            <span id="D">Поденок Дарья ИДМ-22-01; РП - Управление проектом; КО - консалтинг.</span>
+        </div>
+        <div id="person3">
+            <img src="./src/Anton.jpg" alt="A">
+            <span id="A">Аверьянов Антон ИДМ-22-08; НИ - Научные исследования.</span>
+        </div>
+        <div id="person4">
+            <img src="./src/Tamerlan.jpg" alt="G">
+            <span id="G">Гогаев Тамерлан ИДМ-22-03; СП - Системное программирование; ПП - прикладное программрование.</span>
+        </div>
+        <div id="person5">
+            <img src="./src/Tsyreniao.jpg" alt="C">
+            <span id="C">Цыбиков Цырен ИДМ-22-03; Администрирование.</span>
+        </div>
+    </div>
+    <div id="Reviews">
+        <p>Отзывы (ненастоящие)</p>
+        <div class="wrapper">
+            <input type="radio" name="point" id="slide1" checked>
+            <input type="radio" name="point" id="slide2">
+            <input type="radio" name="point" id="slide3">
+            <div class="slider">
+                <div class="slides slide1"></div>
+                <div class="slides slide2"></div>
+                <div class="slides slide3"></div>
+            </div>	
+            <div class="controls">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+            </div>
+        </div>
+    </div>
+    <div id="Technology">
+        <p>Средства разработки</p>
+        <span>Язык разметки HTML;<br>
+            Язык таблиц стилей CSS;<br>
+            Язык программирования JavaScript;<br>
+            Совместная разработка ПО и контроль изменений:<br>
+            Распределённая система управления версиями Git;<br>
+            Веб-сервис для хостинга IT-проектов и их совместной разработки GitHub.</span>
+    </div>
+    <footer>
+        <span><a href="https://github.com/Tsyreniao/IT_MulticoloredPictures">Репозиторий</a> Конкурс проектов МГТУ “СТАНКИН” по дисцеплине “Интернет-технологии” 2022 год Москва</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
